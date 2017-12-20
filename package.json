@@ -1,0 +1,37 @@
+{
+  "name": "re-connect",
+  "version": "1.0.0",
+  "description": "make react functional component stateful again ~",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "cross-env BABEL_ENV=production webpack --config webpack.config.production.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MuromiU/re-connect.git"
+  },
+  "keywords": [
+    "react",
+    "stateful",
+    "connect",
+    "functional"
+  ],
+  "author": "muromi ukari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MuromiU/re-connect/issues"
+  },
+  "homepage": "https://github.com/MuromiU/re-connect#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-constant-elements": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.1.1",
+    "react": "^16.2.0",
+    "webpack": "^3.10.0"
+  }
+}

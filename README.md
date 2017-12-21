@@ -5,7 +5,7 @@ this package supports to help transform functional stateless component to statef
 
 ## install
 ```
-npm install --save-dev git+ssh://git@github.com/MuromiU/re-connect.git
+npm install --save-dev github:MuromiU/re-connect
 ```
 
 ## usage
@@ -15,14 +15,15 @@ let ReactDom = require('react-dom');
 let connect = require('re-connect');
 
 let store = {i: 0};
-let click = () => store.i += 1;
-let IncButton = () => (
-	<button onClick={click}>+{store.i}</button>
+let IncButton = ({text}) => (
+	<button onClick={click}>{text} +{store.i}</button>
 );
 
 ({store, IncButton} = connect({store, IncButton})); // connect it!!
 
-ReactDom.render(<IncButton/>, document.querySelector('body'));
+let click = () => store.i += 1;
+
+ReactDom.render(<IncButton text="click me"/>, document.querySelector('body'));
 
 ```
 

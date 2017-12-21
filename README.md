@@ -9,7 +9,7 @@ npm install --save-dev github:MuromiU/re-connect
 ```
 
 ## usage
-``` react
+``` jsx
 let React = require('react');
 let ReactDom = require('react-dom');
 let connect = require('re-connect');

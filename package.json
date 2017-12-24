@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MuromiU/re-connect.git"
+    "url": "https://github.com/MuromiU/re-connect.git"
   },
   "keywords": [
     "react",

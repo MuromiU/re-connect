@@ -1,6 +1,6 @@
 {
   "name": "re-connect",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "make react functional component stateful again ~",
   "main": "dist/bundle.js",
   "scripts": {

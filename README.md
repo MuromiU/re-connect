@@ -33,7 +33,7 @@ ReactDom.render(<IncButton text="click me"/>, document.querySelector('body'));
 ``` jsx
 let store = {i: 0};
 
-@Connect(store)
+@Connect({store})
 let IncButton = ({text, store}) => (
 	<button onClick={() => click(store)}>{text} +{store.i}</button>
 );

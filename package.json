@@ -1,8 +1,8 @@
 {
   "name": "re-connect",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "make react functional component stateful again ~",
-  "main": "dist/bundle.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "cross-env BABEL_ENV=production webpack --config webpack.config.production.js"
   },

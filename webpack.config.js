@@ -21,7 +21,7 @@ module.exports = {
       entry: srcPath + '/' + entry,
       output: {
         path: distPath,
-        filename: 'bundle.js',
+        filename: 'index.js',
         libraryTarget: "umd",
         library: "re-connect"
       },

@@ -1,6 +1,6 @@
 {
   "name": "re-connect",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "make react functional component stateful again ~",
   "main": "dist/index.js",
   "scripts": {

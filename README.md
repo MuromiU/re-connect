@@ -14,7 +14,6 @@ npm install --save-dev github:MuromiU/re-connect
 ``` jsx
 let React = require('react');
 let ReactDom = require('react-dom');
-let Connect = require('re-connect');
 let {Store, Connect} = require('re-connect');
 
 let store = Store({i: 0});
@@ -67,7 +66,7 @@ let IncButton = function() {
   @Connect(store)
   let Inc = ({text, ...props}) => (
     <button onClick={inc}>
-      {text} + {store.i}
+      {text} +{store.i}
     </button>
   );
 
